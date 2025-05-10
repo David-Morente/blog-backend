@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "e55cb4e8-6e11-4a6f-8c28-dcd672a5b295",
+		"name": "Blog de aprendizaje",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37219218"
+	},
+	"item": [
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "Create comment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"davidmorenteg07\",\r\n    \"content\":\"La verdad que react si es una buena biblioteca\",\r\n    \"post\":\"681eb7ab04a1542ffd4bc7a1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/learningBlog/v1/comment/createComment",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"learningBlog",
+								"v1",
+								"comment",
+								"createComment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetComments",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/learningBlog/v1/comment/getComments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"learningBlog",
+								"v1",
+								"comment",
+								"getComments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetComments",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/learningBlog/v1/comment/getComments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"learningBlog",
+								"v1",
+								"comment",
+								"getComments"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "Create Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"React es un buena biblioteca de JavaScript\",\r\n    \"content\":\"React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas\",\r\n    \"courseCategory\":\"Práctica supervisada\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/learningBlog/v1/post/createPost",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"learningBlog",
+								"v1",
+								"post",
+								"createPost"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Posts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/learningBlog/v1/post/getPosts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"learningBlog",
+								"v1",
+								"post",
+								"getPosts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostById",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/learningBlog/v1/post/getPostById/681ea425684665d1697dbc07",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"learningBlog",
+								"v1",
+								"post",
+								"getPostById",
+								"681ea425684665d1697dbc07"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostByFilter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/learningBlog/v1/post/getPostById/681ea425684665d1697dbc07",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"learningBlog",
+								"v1",
+								"post",
+								"getPostById",
+								"681ea425684665d1697dbc07"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPostByFilter",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/learningBlog/v1/post/getPostById/681ea425684665d1697dbc07",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"learningBlog",
+								"v1",
+								"post",
+								"getPostById",
+								"681ea425684665d1697dbc07"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
