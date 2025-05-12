@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "681ea425684665d1697dbc07"
+  },
+  "title": "React es un buena biblioteca de JavaScript",
+  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "courseCategory": "Práctica supervisada",
+  "status": true,
+  "date": {
+    "$date": "2025-05-10T00:56:05.421Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T00:56:05.423Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T00:56:05.423Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681eb4ac04a1542ffd4bc797"
+  },
+  "title": "React es buena biblioteca de JavaScript",
+  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "courseCategory": "Práctica supervisada",
+  "status": true,
+  "date": {
+    "$date": "2025-05-10T02:06:36.338Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T02:06:36.340Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T02:06:36.340Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681eb79304a1542ffd4bc799"
+  },
+  "title": "React es buena biblioteca de JavaScript",
+  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "courseCategory": "Práctica supervisada",
+  "status": true,
+  "date": {
+    "$date": "2025-05-10T02:18:59.778Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T02:18:59.779Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T02:18:59.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681eb7a304a1542ffd4bc79b"
+  },
+  "title": "React es buena biblioteca de JavaScript",
+  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "courseCategory": "Tecnología",
+  "status": true,
+  "date": {
+    "$date": "2025-05-10T02:19:15.685Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T02:19:15.685Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T02:19:15.685Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681eb7a504a1542ffd4bc79d"
+  },
+  "title": "React es buena biblioteca de JavaScript",
+  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "courseCategory": "Tecnología",
+  "status": true,
+  "date": {
+    "$date": "2025-05-10T02:19:17.416Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T02:19:17.416Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T02:19:17.416Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681eb7aa04a1542ffd4bc79f"
+  },
+  "title": "React es buena biblioteca de JavaScript",
+  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "courseCategory": "Taller",
+  "status": true,
+  "date": {
+    "$date": "2025-05-10T02:19:22.408Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T02:19:22.408Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T02:19:22.408Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681eb7ab04a1542ffd4bc7a1"
+  },
+  "title": "React es buena biblioteca de JavaScript",
+  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "courseCategory": "Taller",
+  "status": true,
+  "date": {
+    "$date": "2025-05-10T02:19:23.974Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-10T02:19:23.974Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T02:19:23.974Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215d77356208a401212db7"
+  },
+  "title": "React es una biblioteca de JavaScript antigua",
+  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "courseCategory": "Taller",
+  "status": true,
+  "date": {
+    "$date": "2025-05-12T02:31:19.292Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:31:19.292Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:31:19.292Z"
+  }
+}]
