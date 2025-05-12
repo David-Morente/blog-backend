@@ -8,6 +8,6 @@ router.post('/createComment', validarCreateComment, createComment);
 
 router.get('/getComments', getComments);
 
-router.get('/getLatestComment', getLatestComment);
+router.get('/getLatestComment/:idPost', getLatestComment);
 
 export default router;

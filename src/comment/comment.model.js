@@ -1,6 +1,6 @@
 import { Schema, model } from 'mongoose';
 
-const postSchema = new Schema({
+const commentSchema = new Schema({
     username: {
         type: String,
         required: true,
@@ -28,4 +28,4 @@ const postSchema = new Schema({
     versionKey: false,
 });
 
-export default model("Comment", postSchema);
+export default model("Comment", commentSchema);

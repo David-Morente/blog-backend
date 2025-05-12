@@ -44,7 +44,8 @@ export const getComments = async (req, res) => {
 
 export const getLatestComment = async (req, res) => {
     try {
-        const latestComment = await Comment.findOne().sort({ date: -1 });
+        const { idPost } = req.params;
+        const latestComment = await Comment.findOne({ post: idPost }).sort({ date: -1 });
 
         if (!latestComment) {
             return res.status(404).json({
