@@ -1,144 +1,189 @@
 [{
   "_id": {
-    "$oid": "681ea425684665d1697dbc07"
+    "$oid": "682eba6fc146579eaaa351d3"
   },
-  "title": "React es un buena biblioteca de JavaScript",
-  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
-  "courseCategory": "Práctica supervisada",
-  "status": true,
-  "date": {
-    "$date": "2025-05-10T00:56:05.421Z"
-  },
-  "createdAt": {
-    "$date": "2025-05-10T00:56:05.423Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-10T00:56:05.423Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "681eb4ac04a1542ffd4bc797"
-  },
-  "title": "React es buena biblioteca de JavaScript",
-  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
-  "courseCategory": "Práctica supervisada",
-  "status": true,
-  "date": {
-    "$date": "2025-05-10T02:06:36.338Z"
-  },
-  "createdAt": {
-    "$date": "2025-05-10T02:06:36.340Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-10T02:06:36.340Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "681eb79304a1542ffd4bc799"
-  },
-  "title": "React es buena biblioteca de JavaScript",
-  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
-  "courseCategory": "Práctica supervisada",
-  "status": true,
-  "date": {
-    "$date": "2025-05-10T02:18:59.778Z"
-  },
-  "createdAt": {
-    "$date": "2025-05-10T02:18:59.779Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-10T02:18:59.779Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "681eb7a304a1542ffd4bc79b"
-  },
-  "title": "React es buena biblioteca de JavaScript",
-  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "title": "Introducción a React.js",
+  "content": "React es una biblioteca de JavaScript para construir interfaces de usuario. Aprende sobre componentes, props y estado.",
   "courseCategory": "Tecnología",
+  "postImage": [
+    "react-1747892847819.png"
+  ],
   "status": true,
   "date": {
-    "$date": "2025-05-10T02:19:15.685Z"
+    "$date": "2025-05-22T05:47:27.823Z"
   },
   "createdAt": {
-    "$date": "2025-05-10T02:19:15.685Z"
+    "$date": "2025-05-22T05:47:27.823Z"
   },
   "updatedAt": {
-    "$date": "2025-05-10T02:19:15.685Z"
+    "$date": "2025-05-22T05:47:27.823Z"
   }
 },
 {
   "_id": {
-    "$oid": "681eb7a504a1542ffd4bc79d"
+    "$oid": "682ebae3c146579eaaa351d7"
   },
-  "title": "React es buena biblioteca de JavaScript",
-  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "title": "Construyendo APIs con Node.js",
+  "content": "Node.js permite crear servidores escalables utilizando JavaScript. Aprende a usar Express para crear rutas y manejar peticiones HTTP.",
   "courseCategory": "Tecnología",
+  "postImage": [
+    "node-1747892963056.png"
+  ],
   "status": true,
   "date": {
-    "$date": "2025-05-10T02:19:17.416Z"
+    "$date": "2025-05-22T05:49:23.058Z"
   },
   "createdAt": {
-    "$date": "2025-05-10T02:19:17.416Z"
+    "$date": "2025-05-22T05:49:23.059Z"
   },
   "updatedAt": {
-    "$date": "2025-05-10T02:19:17.416Z"
+    "$date": "2025-05-22T05:49:23.059Z"
   }
 },
 {
   "_id": {
-    "$oid": "681eb7aa04a1542ffd4bc79f"
+    "$oid": "682ebb26c146579eaaa351dc"
   },
-  "title": "React es buena biblioteca de JavaScript",
-  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
-  "courseCategory": "Taller",
+  "title": "Guía rápida de MongoDB para desarrolladores",
+  "content": "MongoDB es una base de datos NoSQL orientada a documentos. Aprende a crear colecciones, insertar documentos y realizar consultas.",
+  "courseCategory": "Tecnología",
+  "postImage": [
+    "mongo-1747893030366.jpg"
+  ],
   "status": true,
   "date": {
-    "$date": "2025-05-10T02:19:22.408Z"
+    "$date": "2025-05-22T05:50:30.367Z"
   },
   "createdAt": {
-    "$date": "2025-05-10T02:19:22.408Z"
+    "$date": "2025-05-22T05:50:30.367Z"
   },
   "updatedAt": {
-    "$date": "2025-05-10T02:19:22.408Z"
+    "$date": "2025-05-22T05:50:30.367Z"
   }
 },
 {
   "_id": {
-    "$oid": "681eb7ab04a1542ffd4bc7a1"
+    "$oid": "682ebb7ac146579eaaa351de"
   },
-  "title": "React es buena biblioteca de JavaScript",
-  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "title": "Taller: Construcción de una To-Do App con React",
+  "content": "En este taller creamos una aplicación para gestionar tareas usando componentes funcionales y hooks de React.",
   "courseCategory": "Taller",
+  "postImage": [
+    "to-do-1747893114963.png"
+  ],
   "status": true,
   "date": {
-    "$date": "2025-05-10T02:19:23.974Z"
+    "$date": "2025-05-22T05:51:54.964Z"
   },
   "createdAt": {
-    "$date": "2025-05-10T02:19:23.974Z"
+    "$date": "2025-05-22T05:51:54.964Z"
   },
   "updatedAt": {
-    "$date": "2025-05-10T02:19:23.974Z"
+    "$date": "2025-05-22T05:51:54.964Z"
   }
 },
 {
   "_id": {
-    "$oid": "68215d77356208a401212db7"
+    "$oid": "682ebbc1c146579eaaa351e5"
   },
-  "title": "React es una biblioteca de JavaScript antigua",
-  "content": "React es una biblioteca JavaScript de código abierto para construir interfaces de usuario interactivas",
+  "title": "Taller práctico de Node.js con Express",
+  "content": "Aprendimos a crear un backend básico con rutas y middleware, usando Express y Node.js.",
   "courseCategory": "Taller",
+  "postImage": [
+    "express-1747893185449.png"
+  ],
   "status": true,
   "date": {
-    "$date": "2025-05-12T02:31:19.292Z"
+    "$date": "2025-05-22T05:53:05.450Z"
   },
   "createdAt": {
-    "$date": "2025-05-12T02:31:19.292Z"
+    "$date": "2025-05-22T05:53:05.450Z"
   },
   "updatedAt": {
-    "$date": "2025-05-12T02:31:19.292Z"
+    "$date": "2025-05-22T05:53:05.450Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ebbdec146579eaaa351e7"
+  },
+  "title": "Taller: Introducción práctica a MongoDB",
+  "content": "En este taller usamos MongoDB Compass para explorar bases de datos y ejecutar consultas básicas.",
+  "courseCategory": "Taller",
+  "postImage": [
+    "mongo-1747893214357.jpg"
+  ],
+  "status": true,
+  "date": {
+    "$date": "2025-05-22T05:53:34.358Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-22T05:53:34.358Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-22T05:53:34.358Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ebc15c146579eaaa351e9"
+  },
+  "title": "Proyecto final: Dashboard con React y MongoDB",
+  "content": "Como parte de la práctica supervisada, desarrollamos un panel administrativo que conecta a MongoDB usando una API en Node.js.",
+  "courseCategory": "Práctica supervisada",
+  "postImage": [
+    "clase-1747893269369.jpg"
+  ],
+  "status": true,
+  "date": {
+    "$date": "2025-05-22T05:54:29.370Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-22T05:54:29.370Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-22T05:54:29.370Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ebc32c146579eaaa351eb"
+  },
+  "title": "Implementación de REST API con Node.js en entorno productivo",
+  "content": "Desplegamos una API usando Express y configuramos variables de entorno, middlewares de seguridad y controladores.",
+  "courseCategory": "Práctica supervisada",
+  "postImage": [
+    "node-1747893298605.png"
+  ],
+  "status": true,
+  "date": {
+    "$date": "2025-05-22T05:54:58.606Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-22T05:54:58.606Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-22T05:54:58.606Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ebc49c146579eaaa351ed"
+  },
+  "title": "Práctica: Modelado de datos en MongoDB",
+  "content": "Creamos esquemas para usuarios y publicaciones usando Mongoose y aprendimos sobre validaciones y relaciones entre colecciones.",
+  "courseCategory": "Práctica supervisada",
+  "postImage": [
+    "mongo-1747893321701.jpg"
+  ],
+  "status": true,
+  "date": {
+    "$date": "2025-05-22T05:55:21.702Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-22T05:55:21.702Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-22T05:55:21.702Z"
   }
 }]

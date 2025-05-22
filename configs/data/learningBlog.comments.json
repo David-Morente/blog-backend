@@ -1,100 +1,60 @@
 [{
   "_id": {
-    "$oid": "681ec3c7a2e0540a0d204dec"
+    "$oid": "682ebc68c146579eaaa351fb"
   },
-  "username": "davidmorenteg07",
-  "content": "La verdad que react si es una buena biblioteca",
+  "username": "Braulio",
+  "content": "Cualquier duda me avisan en la próxima clase",
   "post": {
-    "$oid": "681eb7ab04a1542ffd4bc7a1"
+    "$oid": "682eba6fc146579eaaa351d3"
   },
   "status": true,
   "date": {
-    "$date": "2025-05-10T03:11:03.760Z"
+    "$date": "2025-05-22T05:55:52.875Z"
   },
   "createdAt": {
-    "$date": "2025-05-10T03:11:03.762Z"
+    "$date": "2025-05-22T05:55:52.876Z"
   },
   "updatedAt": {
-    "$date": "2025-05-10T03:11:03.762Z"
+    "$date": "2025-05-22T05:55:52.876Z"
   }
 },
 {
   "_id": {
-    "$oid": "681ed94b0499d596ef0692b0"
+    "$oid": "682ebc7ec146579eaaa351ff"
   },
-  "username": "davidmorenteg07",
-  "content": "React es muy antiguo",
+  "username": "Alexis",
+  "content": "Me quedo muy claro",
   "post": {
-    "$oid": "681eb7ab04a1542ffd4bc7a1"
+    "$oid": "682eba6fc146579eaaa351d3"
   },
   "status": true,
   "date": {
-    "$date": "2025-05-10T04:42:51.652Z"
+    "$date": "2025-05-22T05:56:14.633Z"
   },
   "createdAt": {
-    "$date": "2025-05-10T04:42:51.654Z"
+    "$date": "2025-05-22T05:56:14.633Z"
   },
   "updatedAt": {
-    "$date": "2025-05-10T04:42:51.654Z"
+    "$date": "2025-05-22T05:56:14.633Z"
   }
 },
 {
   "_id": {
-    "$oid": "68215d5d356208a401212db5"
+    "$oid": "682ebc95c146579eaaa3520f"
   },
-  "username": "juan",
-  "content": "React es muy antiguo",
+  "username": "David",
+  "content": "La implementación me costo",
   "post": {
-    "$oid": "681eb7ab04a1542ffd4bc7a1"
+    "$oid": "682ebc32c146579eaaa351eb"
   },
   "status": true,
   "date": {
-    "$date": "2025-05-12T02:30:53.206Z"
+    "$date": "2025-05-22T05:56:37.409Z"
   },
   "createdAt": {
-    "$date": "2025-05-12T02:30:53.208Z"
+    "$date": "2025-05-22T05:56:37.409Z"
   },
   "updatedAt": {
-    "$date": "2025-05-12T02:30:53.208Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "68218015a40076cf2b42870a"
-  },
-  "username": "José",
-  "content": "React es muy fácil",
-  "post": {
-    "$oid": "681eb7ab04a1542ffd4bc7a1"
-  },
-  "status": true,
-  "date": {
-    "$date": "2025-05-12T04:59:01.003Z"
-  },
-  "createdAt": {
-    "$date": "2025-05-12T04:59:01.004Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-12T04:59:01.004Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "68218088a40076cf2b428712"
-  },
-  "username": "Jaime",
-  "content": "React es good",
-  "post": {
-    "$oid": "681eb7ab04a1542ffd4bc7a1"
-  },
-  "status": true,
-  "date": {
-    "$date": "2025-05-12T05:00:56.868Z"
-  },
-  "createdAt": {
-    "$date": "2025-05-12T05:00:56.868Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-12T05:00:56.868Z"
+    "$date": "2025-05-22T05:56:37.409Z"
   }
 }]
