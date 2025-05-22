@@ -1,9 +1,18 @@
 import Post from './post.model.js';
 import Comment from '../comment/comment.model.js';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 export const createPost = async (req, res) => {
     try {
         const data = req.body;
+
+        let postImage = req.file ? req.file.filename : null;
+        data.postImage = postImage;
 
         const post = await Post.create(data);
         return res.status(201).json({
@@ -27,6 +36,16 @@ export const getPosts = async (req, res) => {
         for (const post of posts) {
             const lastComment = await Comment.findOne({ post: post._id }).sort({ date: -1 });
             post.lastComment = lastComment;
+
+            if (post.postImage && post.postImage.length > 0) {
+                const imagePath = path.join(
+                    __dirname,
+                    '../../public/uploads/post-pictures',
+                    post.postImage[post.postImage.length - 1]
+                );
+                const mimeType = 'image/jpeg'; // Cambia esto si tus imágenes son de otro tipo
+                post.postImage[post.postImage.length - 1] = await getImageBase64(imagePath, mimeType);
+            }
         }
 
         return res.status(200).json({
@@ -78,6 +97,16 @@ export const getPostById = async (req, res) => {
         const { uid } = req.params;
         const post = await Post.findById(uid).lean();
 
+        if (post.postImage && post.postImage.length > 0) {
+            const imagePath = path.join(
+                __dirname,
+                '../../public/uploads/post-pictures',
+                post.postImage[post.postImage.length - 1]
+            );
+            const mimeType = 'image/jpeg'; // Cambia esto si tus imágenes son de otro tipo
+            post.postImage[post.postImage.length - 1] = await getImageBase64(imagePath, mimeType);
+        }
+
         if (!post) {
             return res.status(404).json({
                 success: false,
@@ -100,3 +129,16 @@ export const getPostById = async (req, res) => {
         })
     }
 }
+
+const getImageBase64 = (imagePath, mimeType) => {
+    return new Promise((resolve, reject) => {
+        fs.readFile(imagePath, (err, data) => {
+            if (err) {
+                reject(err);
+            } else {
+                const base64Image = data.toString('base64');
+                resolve(`data:${mimeType};base64,${base64Image}`);
+            }
+        });
+    });
+};

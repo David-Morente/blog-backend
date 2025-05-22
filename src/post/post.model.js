@@ -14,6 +14,9 @@ const postSchema = new Schema({
         required: true,
         enum: ['Taller', 'Tecnología', 'Práctica supervisada'],
     },
+    postImage: [{
+        type: String,
+    }],
     date: {
         type: Date,
         default: Date.now,

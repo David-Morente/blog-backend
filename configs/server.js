@@ -8,12 +8,25 @@ import { dbConnection } from './mongo.js'
 import apiLimiter from '../src/middlewares/validar-cant-peticiones.js'
 import commentRoutes from '../src/comment/comment.routes.js'
 import postRoutes from '../src/post/post.routes.js'
+import path from 'path'
 
+const __dirname = path.resolve();
 const middlewares = (app) => {
     app.use(express.urlencoded({extended: false}))
     app.use(express.json())
+    app.use('/uploads', express.static(path.join(__dirname, 'public', 'uploads')));
     app.use(cors())
-    app.use(helmet())
+    app.use(helmet({
+        contentSecurityPolicy: {
+            directives: {
+                defaultSrc: ["'self'"],
+                scriptSrc: ["'self'", "'unsafe-inline'", `http://localhost:${process.env.PORT}`],
+                connectSrc: ["'self'", `http://localhost:${process.env.PORT}`],
+                imgSrc: ["'self'", "data:"],
+                styleSrc: ["'self'", "'unsafe-inline'"],
+            },
+        },
+    }));
     app.use(morgan("dev"))
     app.use(apiLimiter)
 }
